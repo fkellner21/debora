@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Debora Araujo - Fotografía</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="./estilos/estilos.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+   
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+        </style>
+</head>
+
+<body>
+    <main>
+        <!-- en este caso el header no necesitaria un id realmente  -->
+        <header id="img1">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler border" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre mi">Sobre mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./trabajos.html">Algunos trabajos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#img3">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <h1>Debora Araújo</h1>
+        </header>
+
+        <section id="sobre mi">
+            <img id="dee" src="./img/yo.JPG" alt="Foto de perfil">
+            <p>Hola, 
+            mi nombre es Debora Araujo pero me dicen paquetito bayano.<br>Me importaron directamente desde la Republica
+            de Rivera.<br> Desde chiquitita me apasionan tanto la fotografía como los ticholos y quiero compartir mi arte con todos ustedes.<br>
+            Se hablar muy bien el portugues aunque me da vergonia.<br>
+            Besis
+            </p>
+        </section>
+
+        <!-- en caso que la seccion sea vacia se admite usar un div ya que no 
+        esta bueno tener una etiqueta semantica sin contenido -->
+        <section id="img2">
+            <h2>Fotografía para tu evento</h2>
+            <ol class="list-group">
+                <li class="list-item">Compromisos</li>
+                <li class="list-item">Bautismos</li>
+                <li class="list-item">Cumpleaños</li>
+                <li class="list-item">Celebraciones en general</li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./trabajos.html">Te invito a ver algunos de mis trabajos</a>
+                </li>
+            </ol>
+        </section>
+
+        <section>
+            <p></p>
+        </section>
+
+        <!-- eventualmente una section si podria necesitar un id si se trata
+         de una navegacion interna -->
+        <section id="img3">
+            <h2 id="contacto">Contacto</h2>
+            <ul id="listaContacto">
+                <li class="nav-item red">
+                    <a class="nav-link" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="nav-item red">
+                    <a class="nav-link" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="nav-item red">
+                    <a class="nav-link" href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item red">
+                    <a class="nav-link" href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+<footer>
+    <a class="nav-link" href="https://www.linkedin.com/in/francisco-kellner" target="_blank">Created by Francisco Kellner   <i class="fab fa-linkedin-in p-2"> </i></a>
+</footer>
+
+</html>
