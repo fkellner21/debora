@@ -24,6 +24,7 @@ img {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 #dee {
   border-radius: 50%;
